@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Changing The URL for KIT-VPN",
+  "description": "It is a tool to change the URL of the Remote-VPN (when Web mode is used).",
+  "version": "1.0",
+  "icons": {
+    "16": "images/icon/icon_16.png",
+    "48": "images/icon/icon_48.png",
+    "128": "images/icon/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon/icon_19.png",
+      "38": "images/icon/icon_38.png"
+    },
+    "default_title": "Changing The URL for KIT-VPN",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "https://*/*",
+    "http://*/*",
+    "storage",
+    "webNavigation"
+  ]
+}
